@@ -195,15 +195,3 @@ join address a 		on(c.address_id = a.address_id)
 join city ci 		on(a.city_id = ci.city_id)
 group by (f.title, month, ci.city)
 order by f.title, month, ci.city, revenue desc;
-
-
-
-
-
-
-
-
-
-
-
-
